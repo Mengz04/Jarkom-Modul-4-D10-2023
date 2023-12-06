@@ -414,6 +414,11 @@ auto eth2
 iface eth2 inet static
 	address 192.197.128.1
 	netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+	address 192.198.1.1
+	netmask 255.255.255.252
 ```
 
 Frieren
