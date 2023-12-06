@@ -458,6 +458,7 @@ iface eth2 inet static
 	address 192.196.16.1
 	netmask 255.255.252.0
 
+auto eth3
 iface eth3 inet static
 	address 192.196.20.9
 	netmask 255.255.255.252
