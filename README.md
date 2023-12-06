@@ -580,3 +580,140 @@ iface eth1 inet static
 	address 192.198.0.1
 	netmask 255.255.255.0
 ```
+
+#### Konfigurasi clients
+
+LakeKorridor
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.196.64.2
+	netmask 255.255.255.224
+	gateway 192.196.64.1
+```
+
+LaubHills
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.196.0.2
+	netmask 255.255.248.0
+	gateway 192.196.0.1
+```
+
+AppetitRegion
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.196.0.3
+	netmask 255.255.248.0
+	gateway 192.196.0.1
+```
+
+RohrRoad
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.196.16.2
+	netmask 255.255.252.0
+	gateway 192.196.16.1
+```
+
+SchwerMountains
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.196.20.2
+	netmask 255.255.255.248
+	gateway 192.196.20.1
+```
+
+Richter
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.80.2
+	netmask 255.255.255.248
+	gateway 192.197.80.1
+```
+
+Revolte
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.80.3
+	netmask 255.255.255.248
+	gateway 192.197.80.1
+```
+
+BredtRegion
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.4.2
+	netmask 255.255.255.192
+	gateway 192.197.4.1
+```
+
+Sein
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.0.2
+	netmask 255.255.252.0
+	gateway 192.197.0.1
+```
+
+RiegelCanyon
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.0.3
+	netmask 255.255.252.0
+	gateway 192.197.0.1
+```
+
+GranzChannel
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.16.2
+	netmask 255.255.254.0
+	gateway 192.197.16.1
+```
+
+GrobeForest
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.68.2
+	netmask 255.255.255.0
+	gateway 192.197.68.1
+```
+
+TurkRegion
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.64.2
+	netmask 255.255.252.0
+	gateway 192.197.64.1
+```
+
+WilleRegion
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.198.0.2
+	netmask 255.255.255.0
+	gateway 192.198.0.1
+```
+
+RoyalCapital
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.198.0.3
+	netmask 255.255.255.0
+	gateway 192.198.0.1
+```
