@@ -18,6 +18,7 @@ Pembagian subnet berdasarkan anggota router pada topologi
 
 #### Penggabungan Subnet
 ##### Penggabungan I
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/78022264/abda31d6-c7bc-4aad-8931-d891ff68beef)
 
 <table>
     <thead>
@@ -106,6 +107,7 @@ Pembagian subnet berdasarkan anggota router pada topologi
 </table>
 
 ##### Penggabungan II
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/78022264/4d7d8d01-b769-4eb5-a970-6870c48d9945)
 
 <table>
     <thead>
@@ -154,6 +156,8 @@ Pembagian subnet berdasarkan anggota router pada topologi
 </table>
 
 ##### Penggabungan III
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/78022264/0449492d-3e48-46b0-be22-9a0533ab5c6a)
+
 <table>
     <thead>
         <tr>
@@ -201,6 +205,8 @@ Pembagian subnet berdasarkan anggota router pada topologi
 </table>
 
 ##### Penggabungan IV
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/78022264/322669e1-93b1-44ee-bfdc-94013a733aa5)
+
 <table>
     <thead>
         <tr>
@@ -240,6 +246,8 @@ Pembagian subnet berdasarkan anggota router pada topologi
 </table>
 
 ##### Penggabungan V
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/78022264/d4c57956-6313-478e-a6e9-94531e604337)
+
 <table>
     <thead>
         <tr>
@@ -279,6 +287,8 @@ Pembagian subnet berdasarkan anggota router pada topologi
 </table>
 
 ##### Penggabungan VI
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/78022264/4c3e1c42-f595-4545-8d75-b1879ee6f8e0)
+
 <table>
     <thead>
         <tr>
@@ -318,6 +328,8 @@ Pembagian subnet berdasarkan anggota router pada topologi
 </table>
 
 ##### Penggabungan VII
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/78022264/841de776-6d56-4967-a093-4e5f91cff98c)
+
 <table>
     <thead>
         <tr>
@@ -349,6 +361,8 @@ Pembagian subnet berdasarkan anggota router pada topologi
 </table>
 
 ##### Penggabungan VIII
+![Uploading image.png…]()
+
 <table>
     <thead>
         <tr>
