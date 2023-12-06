@@ -5,6 +5,46 @@
 | Muhammad Rafi Insan Fillah | 5025211169  |
 | Ken Anargya Alkausar | 5025211168  |
 
+## CPT VLSM
+
+#### Topologi
+![Screenshot 2023-11-28 235649 (1)](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/d1d0c7a9-5314-4e1b-9be0-265e63676a42)
+
+#### Pembagian subnet
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/881af1d5-a858-45f6-8292-07aa859ff226)
+
+#### VLSM Tree
+![D10_Modul 4_VLSM Tree](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/a003e0a3-aea2-4e96-b36d-8769cdda6637)
+karena total IP yang dibutuhkan adalah 4255 maka netmask yang cukup untuk menampung adalah /19
+yang dapat menampung IP sebanyak 8190. Agar memudahkan pengerjaan maka dimulai darri IP yang terkecil.
+
+#### Pembagian IP VLSM
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/67743e6d-0fcc-4450-b270-cbd6ea74b9ec)  
+Sehingga diperoleh pembagian IP VLSM pada gambar di atas.
+
+#### Contoh Assignment IP Router dan Client pada salah satu Subnet
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/8838085c-2c38-448d-8993-531cdd7cf84e)
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/ee690c15-73e1-4bb1-8955-b210b8ebadab)
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/92068912-a463-4de1-8f97-6f9a995a82f7)
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/085dfbf7-b8a5-431d-831e-06416ebed498)
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/66331e1a-037d-4ec5-8fd5-4a6660e47ccd)
+Lakukan konfigurasi IP pada setiap subnet sesuai dengan perhitungan ip yang dibuat di sheet.
+
+#### Hasil
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/eeff0dee-815d-4c10-ac93-60fa559ea288)
+
+#### Routing
+Contoh salah satu routing pada aura
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/1907c3ba-c002-4066-9c1b-e5af2dc84f24)
+
+Langkah-langkah kunci dalam konfigurasi ini adalah:
+
+* Routing statis digunakan, di mana setiap router mengetahui jalur menuju subnet dengan mengatur next hop menjadi router terdekat.  
+* Setiap router harus "berkenalan" dengan subnet yang terhubung dengan mereka.  
+* Efisiensi routing ditingkatkan dengan mengarahkan semua router ke satu router pusat ("aura").  
+* Jaringan harus diatur sehingga semua subnet terhubung ke "aura" dengan benar.  
+Namun, dalam jaringan yang lebih besar dan dinamis, protokol routing dinamis seperti OSPF atau BGP seringkali lebih efektif.
+
 ## GNS3 CIDR
 
 #### Topologi
