@@ -361,7 +361,7 @@ Pembagian subnet berdasarkan anggota router pada topologi
 </table>
 
 ##### Penggabungan VIII
-![Uploading image.png…]()
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/78022264/c00b301c-15e4-4ce0-a433-e4076bbbdda6)
 
 <table>
     <thead>
