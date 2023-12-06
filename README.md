@@ -426,7 +426,7 @@ Frieren
 auto eth0
 iface eth0 inet static
 	address 192.196.128.2
-	netmask 255.255.255.0
+	netmask 255.255.255.252
 	gateway 192.196.128.1
 
 auto eth1
