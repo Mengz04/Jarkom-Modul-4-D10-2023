@@ -385,9 +385,9 @@ Penyusunan tree dilakukan secara top down dengan ip dimulai dari 192.196.0.0 den
 
 ![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/78022264/b7307861-282d-4ab5-89c0-d5e661826277)
 
-### Configurasi node
+### Konfigurasi node
 
-#### Configurasi Router
+#### Konfigurasi Router
 
 Aura
 ```sh
@@ -716,4 +716,193 @@ iface eth0 inet static
 	address 192.198.0.3
 	netmask 255.255.255.0
 	gateway 192.198.0.1
+```
+### Routing Script
+
+#### Router
+
+Aura
+```sh
+#KIRI
+route add -net 192.196.64.0 netmask 255.255.255.224 gw 192.196.128.2 #A4 REF FRIE A1
+route add -net 192.196.32.0 netmask 255.255.255.252 gw 192.196.128.2 #A5 REF FRIE A1
+route add -net 192.196.8.0 netmask 255.255.255.252 gw 192.196.128.2 #A11 REF FRIE A1
+route add -net 192.196.0.0 netmask 255.255.248.0 gw 192.196.128.2 #A18 REF FRIE A1
+route add -net 192.196.16.0 netmask 255.255.252.0 gw 192.196.128.2 #A12 REF FRIE A1
+route add -net 192.196.20.8 netmask 255.255.255.252 gw 192.196.128.2 #A13 REF FRIE A1
+route add -net 192.196.20.0 netmask 255.255.255.248 gw 192.196.128.2 #A19 REF FRIE A1
+
+#BAWAH
+route add -net 192.197.80.0 netmask 255.255.255.248 gw 192.197.128.2 #A6 REF EISEN A2
+route add -net 192.197.32.0 netmask 255.255.255.252 gw 192.197.128.2 #A7 REF EISEN A2
+route add -net 192.197.8.0 netmask 255.255.255.252 gw 192.197.128.2 #A14 REF EISEN A2
+route add -net 192.197.4.0 netmask 255.255.255.192 gw 192.197.128.2 #A20 REF EISEN A2
+route add -net 192.197.0.0 netmask 255.255.252.0 gw 192.197.128.2 #A21 REF EISEN A2
+route add -net 192.197.16.0 netmask 255.255.254.0 gw 192.197.128.2 #A15 REF EISEN A2
+route add -net 192.197.72.0 netmask 255.255.255.252 gw 192.197.128.2 #A8 REF EISEN A2
+route add -net 192.197.68.0 netmask 255.255.255.0 gw 192.197.128.2 #A16 REF EISEN A2
+route add -net 192.197.64.0 netmask 255.255.252.0 gw 192.197.128.2 #A17 REF EISEN A2
+route add -net 192.197.80.8 netmask 255.255.255.252 gw 192.197.128.2 #A9 REF EISEN A2
+
+#KANAN
+route add -net 192.198.0.0 netmask 255.255.255.0 gw 192.198.1.1 #A10 REF DENKEN E3
+
+```
+
+Frieren
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.196.128.1
+
+#KIRI
+route add -net 192.196.8.0 netmask 255.255.255.252 gw 192.196.32.2 #A11 REF FALM A5
+route add -net 192.196.0.0 netmask 255.255.248.0 gw 192.196.32.2 #A18 REF FALM A5
+route add -net 192.196.16.0 netmask 255.255.252.0 gw 192.196.32.2 #A12 REF FALM A5
+route add -net 192.196.20.8 netmask 255.255.255.252 gw 192.196.32.2 #A13 REF FALM A5
+route add -net 192.196.20.0 netmask 255.255.255.248 gw 192.196.32.2 #A19 REF FALM A5
+```
+
+Flamme
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.196.32.1
+
+#ATAS
+route add -net 192.196.0.0 netmask 255.255.248.0 gw 192.196.8.2 #A18 REF FERN A11
+
+#BAWAH
+route add -net 192.196.20.0 netmask 255.255.255.248 gw 192.196.20.10 #A19 REF HIMMEL A13
+```
+
+Fern
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.196.8.1
+```
+
+Himmel
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.196.20.9
+```
+
+Eisen
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.128.1
+
+#BAWAH
+route add -net 192.197.32.0 netmask 255.255.255.252 gw 192.197.32.2 #A7 REF LINIE A7
+route add -net 192.197.8.0 netmask 255.255.255.252 gw 192.197.32.2 #A14 REF LINIE A7
+route add -net 192.197.4.0 netmask 255.255.255.192 gw 192.197.32.2 #A20 REF LINIE A7
+route add -net 192.197.0.0 netmask 255.255.252.0 gw 192.197.32.2 #A21 REF LINIE A7
+route add -net 192.197.16.0 netmask 255.255.254.0 gw 192.197.32.2 #A15 REF LINIE A7
+
+#KANAN
+route add -net 192.197.68.0 netmask 255.255.255.0 gw 192.197.72.2 #A16 REF EISEN A2
+route add -net 192.197.64.0 netmask 255.255.252.0 gw 192.197.72.2 #A17 REF EISEN A2
+```
+
+Linie
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.32.1
+
+#BAWAH
+route add -net 192.197.4.0 netmask 255.255.255.192 gw 192.197.8.2 #A20 REF LAWINE A14
+route add -net 192.197.0.0 netmask 255.255.252.0 gw 192.197.8.2 #A21 REF LAWINE A14
+```
+
+Lawine
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.8.1
+
+#BAWAH
+route add -net 192.197.0.0 netmask 255.255.252.0 gw 192.197.4.3 #A21 REF HEITER A20
+```
+
+Heiter
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.4.1
+```
+
+Lugner
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.72.1
+```
+
+Denken
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.198.1.1
+```
+
+#### Client
+
+LakeKorridor
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.196.64.1
+```
+
+LaubHills
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.196.0.1
+```
+
+AppetitRegion
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.196.0.1
+```
+
+RohrRoad
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.196.16.1
+```
+
+SchwerMountains
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.196.20.1
+```
+
+Richter
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.80.1
+```
+
+Revolte
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.80.1
+```
+
+BredtRegion
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.4.1
+```
+
+Sein
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.0.1
+```
+
+RiegelCanyon
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.0.1
+```
+
+GranzChannel
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.16.1
+```
+
+GrobeForest
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.68.1
+```
+
+TurkRegion
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.197.64.1
+```
+
+WilleRegion
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.198.0.1
+```
+
+RoyalCapital
+```sh
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.198.0.1
 ```
