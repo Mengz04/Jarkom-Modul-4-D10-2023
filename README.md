@@ -378,3 +378,9 @@ Pembagian subnet berdasarkan anggota router pada topologi
     </tr>
     </tbody>
 </table>
+
+### Hasil Tree
+
+Penyusunan tree dilakukan secara top down dengan ip dimulai dari 192.196.0.0 dengan netmask /14 (berdasarkan penggabungan subnet VIII)
+
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/78022264/b7307861-282d-4ab5-89c0-d5e661826277)
