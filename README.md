@@ -43,6 +43,7 @@ Langkah-langkah kunci dalam konfigurasi ini adalah:
 * Setiap router harus "berkenalan" dengan subnet yang terhubung dengan mereka.  
 * Efisiensi routing ditingkatkan dengan mengarahkan semua router ke satu router pusat ("aura").  
 * Jaringan harus diatur sehingga semua subnet terhubung ke "aura" dengan benar.  
+
 Namun, dalam jaringan yang lebih besar dan dinamis, protokol routing dinamis seperti OSPF atau BGP seringkali lebih efektif.
 
 ## GNS3 CIDR
