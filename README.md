@@ -384,3 +384,199 @@ Pembagian subnet berdasarkan anggota router pada topologi
 Penyusunan tree dilakukan secara top down dengan ip dimulai dari 192.196.0.0 dengan netmask /14 (berdasarkan penggabungan subnet VIII)
 
 ![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/78022264/b7307861-282d-4ab5-89c0-d5e661826277)
+
+### Configurasi node
+
+#### Configurasi Router
+
+Aura
+```sh
+auto eth1
+iface eth1 inet static
+	address 192.196.128.1
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 192.197.128.1
+	netmask 255.255.255.252
+```
+
+Frieren
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.196.128.2
+	netmask 255.255.255.0
+	gateway 192.196.128.1
+
+auto eth1
+iface eth1 inet static
+	address 192.196.64.1
+	netmask 255.255.255.224
+
+auto eth2
+iface eth2 inet static
+	address 192.196.32.1
+	netmask 255.255.255.252
+```
+
+Flamme
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.196.32.2
+	netmask 255.255.255.252
+	gateway 192.196.32.1
+
+auto eth1
+iface eth1 inet static
+	address 192.196.8.1
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 192.196.16.1
+	netmask 255.255.252.0
+
+iface eth3 inet static
+	address 192.196.20.9
+	netmask 255.255.255.252
+```
+
+Fern
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.196.8.2
+	netmask 255.255.255.252
+	gateway 192.196.8.1
+
+auto eth1
+iface eth1 inet static
+	address 192.196.0.1
+	netmask 255.255.248.0
+```
+
+Himmel
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.196.20.10
+	netmask 255.255.255.252
+	gateway 192.196.20.9
+
+auto eth1
+iface eth1 inet static
+	address 192.196.20.1
+	netmask 255.255.255.248
+```
+
+Eisen
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.128.2
+	netmask 255.255.255.252
+	gateway 192.197.128.1
+
+auto eth1
+iface eth1 inet static
+	address 192.197.80.1
+	netmask 255.255.255.248
+
+auto eth2
+iface eth2 inet static
+	address 192.197.32.1
+	netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+	address 192.197.72.1
+	netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+	address 192.197.80.9
+	netmask 255.255.255.252
+```
+
+Linie
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.32.2
+	netmask 255.255.255.252
+	gateway 192.197.32.1
+
+auto eth1
+iface eth1 inet static
+	address 192.197.8.1
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 192.197.16.1
+	netmask 255.255.254.0
+```
+
+Lawine
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.8.2
+	netmask 255.255.255.252
+	gateway 192.197.8.1
+
+auto eth1
+iface eth1 inet static
+	address 192.197.4.1
+	netmask 255.255.255.192
+```
+
+Heiter
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.4.3
+	netmask 255.255.255.192
+	gateway 192.197.4.1
+
+auto eth1
+iface eth1 inet static
+	address 192.197.0.1
+	netmask 255.255.252.0
+```
+
+Lugner
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.197.72.2
+	netmask 255.255.255.252
+	gateway 192.197.72.1
+
+auto eth1
+iface eth1 inet static
+	address 192.197.68.1
+	netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+	address 192.197.64.1
+	netmask 255.255.252.0
+```
+
+Denken
+```sh
+auto eth0
+iface eth0 inet static
+	address 192.198.1.2
+	netmask 255.255.255.252
+	gateway 192.198.1.1
+
+auto eth1
+iface eth1 inet static
+	address 192.198.0.1
+	netmask 255.255.255.0
+```
