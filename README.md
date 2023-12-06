@@ -27,7 +27,7 @@ Sehingga diperoleh pembagian IP VLSM pada gambar di atas.
 ![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/ee690c15-73e1-4bb1-8955-b210b8ebadab)
 ![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/92068912-a463-4de1-8f97-6f9a995a82f7)
 ![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/085dfbf7-b8a5-431d-831e-06416ebed498)
-![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/66331e1a-037d-4ec5-8fd5-4a6660e47ccd)
+![image](https://github.com/Mengz04/Jarkom-Modul-4-D10-2023/assets/92387421/66331e1a-037d-4ec5-8fd5-4a6660e47ccd)  
 Lakukan konfigurasi IP pada setiap subnet sesuai dengan perhitungan ip yang dibuat di sheet.
 
 #### Hasil
